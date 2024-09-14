@@ -45,8 +45,8 @@ This project demonstrates basic operations on Singly Linked Lists (SLL) and Doub
 
     ```bash
     ./linked_list
-    
-    Follow the on-screen prompts to interact with the linked lists.
+
+Follow the on-screen prompts to interact with the linked lists.
 
 ## Detailed Usage
 

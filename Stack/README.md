@@ -5,21 +5,28 @@ The provided code implements a basic stack data structure in C++ using a class-b
 
 # Components
 1) Header File (stack.h):
-      Purpose: Defines the Stack class, its static members, and its public methods.
-      Static Members:
-            data[MAX]: A static array to store stack elements. The MAX constant defines the maximum stack size.
-            top: An integer to keep track of the index of the top element in the stack.
-            TOS: A pointer to the top element of the stack.
-      Public Methods:
-            static void init(): Initializes the stack by setting top to -1, indicating that the stack is empty, and setting TOS to point to data[top].
-            static void push(): Adds a new element to the top of the stack. It prompts the user for input and updates the top and TOS accordingly.
-            static void pop(): Removes the top element from the stack and displays it. It also updates top and TOS.
-            static void print_stack(): Prints all elements currently in the stack from the bottom to the top.
-            static void print_top(): Displays the element at the top of the stack without removing it.
+
+   Purpose: Defines the Stack class, its static members, and its public methods.
+
+   Static Members:
+
+         data[MAX]: A static array to store stack elements. The MAX constant defines the maximum stack size.
+         top: An integer to keep track of the index of the top element in the stack.
+         TOS: A pointer to the top element of the stack.
+
+   Public Methods:
+
+         static void init(): Initializes the stack by setting top to -1, indicating that the stack is empty, and setting TOS to point to data[top].
+         static void push(): Adds a new element to the top of the stack. It prompts the user for input and updates the top and TOS accordingly.
+         static void pop(): Removes the top element from the stack and displays it. It also updates top and TOS.
+         static void print_stack(): Prints all elements currently in the stack from the bottom to the top.
+         static void print_top(): Displays the element at the top of the stack without removing it.
 
 
 2)Source File (stack.cpp):
+      
       Purpose: Implements the methods declared in stack.h.
+      
       Method Implementations:
             init(): Resets the stack to an empty state.
             push(): Handles the addition of a new element to the stack, with overflow checks.

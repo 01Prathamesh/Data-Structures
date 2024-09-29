@@ -35,12 +35,12 @@ To get started with the repository:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
+   git clone https://github.com/01Prathamesh/Data-Structures.git
 
 2. **Navigate into the project directory:**
 
     ```bash
-    cd data structures
+    cd Data-Structures
     
 3. Explore the code:
 
